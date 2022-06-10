@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Laporan Print Pinjam</title>
 </head>
 
 <body>
@@ -48,7 +48,8 @@
         <tbody>
             <?php
             $no = 1;
-            foreach ($laporan as $l) {
+            foreach ($laporan as $l) 
+            {
             ?>
                 <tr>
                     <td scope="row"><?= $no++; ?></td>

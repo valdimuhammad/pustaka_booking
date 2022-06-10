@@ -6,7 +6,7 @@
             <div class="form-group row">
                 <label for="email" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
-                    <input type="text" class="formcontrol" id="email" name="email" value="<?= $email; ?>" readonly>
+                    <input type="text" class="form-control" id="email" name="email" value="<?= $email; ?>" readonly>
                 </div>
             </div>
             <div class="form-group row">
@@ -32,20 +32,16 @@
                     </div>
                 </div>
             </div>
-
             <div class="form-group row justify-content-end">
                 <div class="col-sm-10">
                     <button type="submit" class="btn btn-primary">Ubah</button>
                     <button class="btn btn-dark" onclick="window.history.go(-1)"> Kembali</button>
                 </div>
             </div>
-        
             </form>
         </div>
     </div>
-
 </div>
 <!-- /.container-fluid -->
-
 </div>
 <!-- End of Main Content -->

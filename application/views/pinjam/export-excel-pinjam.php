@@ -1,6 +1,6 @@
 <?php
 header("Content-type: application/vnd-ms-excel");
-header("Content-Disposition: attachment; filename=$title.xls");
+header("Content-Disposition: attachment; filename=".$title.".xls");
 header("Pragma: no-cache");
 header("Expires: 0");
 ?>
@@ -9,7 +9,6 @@ header("Expires: 0");
         width: 100%;
         border-collapse: collapse;
     }
-
     .table-data tr th,
     .table-data tr td {
         border: 1px solid black;
@@ -17,11 +16,9 @@ header("Expires: 0");
         font-family: Verdana;
         padding: 10px 10px 10px 10px;
     }
-
     .table-data th {
         background-color: grey;
     }
-
     h3 {
         font-family: Verdana;
     }
@@ -30,7 +27,7 @@ header("Expires: 0");
     <center>LAPORAN DATA PEMINJAMAN BUKU</center>
 </h3>
 <br />
-<table class="table-data" border=1>
+<table class="table-data" border='1'>
     <thead>
         <tr>
             <th>No</th>
